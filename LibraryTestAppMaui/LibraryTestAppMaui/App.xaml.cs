@@ -13,11 +13,7 @@ namespace LibraryTestAppMaui
         {
             InitializeComponent();
 
-            // MainPage = mainPage;
-            //MainPage = CreateMainPage(mainPage);
-            StartPage startPage = new StartPage();
-            MainPage = CreateMainPage(new NavigationPage(startPage));
-
+             MainPage = mainPage;
         }
 
         private Page CreateMainPage(NavigationPage navigationPage)
